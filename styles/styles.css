@@ -1,19 +1,51 @@
 body {
-    background-color: #fffbf7;
+    background-color: #9fd3c7; 
 }
 
-h1 {
+.title {
     color: #46484c;
     text-align: center;
 }
 
-p {
-    color: #8b8b8bcc;
-    font-family: verdana;
-    font-size: 20px;
+#capterra_logo {
+    max-width: 20%;
+    max-height: 20%;
+    background-color: #fff;
+    border-radius: 10px;
+
 }
 
-button {
+.banner {
+    color: rgb(88, 86, 86);
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+}
+
+#capterra_example {
+    max-width: 40%;
+    max-height: 40%;
+    background-color: #fff;
+    border-radius: 10px;
+
+}
+
+.form {
+    text-align: center;
+    background-color: #0251578a;
+    border-radius: 5px;
+    padding: 1%;
+}
+
+#button_form {
     color: #fff;
     background-color: #025157;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1%;
+}
+#email_form {
+    border: none;
+    border-radius: 5px;
 }
