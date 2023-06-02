@@ -8,10 +8,19 @@ body {
     margin-right: 20px;
     font-size: 0;
 }
+
+li {
+    display: inline;
+}
+
 .header > * {
     display: inline-block;
     font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
 }
+
 
 .logo {
     width: 15%;
@@ -19,14 +28,16 @@ body {
 
 .navbar {
     width: 70%;
+    text-align: center;
+    color:#025157;
+    font-weight: 500;
 }
 
 .actions {
     width: 15%;
-}
-.title {
-    color: #46484c;
-    text-align: center;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 #capterra_logo {
@@ -67,6 +78,7 @@ body {
     padding: 1%;
     margin: 1%;
 }
+
 #email_form {
     border: none;
     border-radius: 5px;
