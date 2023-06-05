@@ -1,57 +1,105 @@
 body {
     background-color: #9fd3c7; 
+    margin: 0;
+	padding: 0;
+
+    padding-top: 15vh;
 }
 
 .header {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 0;
+    display: flex;
+    background-color: #0251578a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*border: 2px solid black;*/
+    height: 15vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed; 
 }
 
-li {
-    display: inline;
+.logo_header {
+    /*border: 2px solid red;*/
+    width: 15vw;
+    padding: .1em;
 }
 
-.header > * {
-    display: inline-block;
-    font-size: 16px;
-    vertical-align: middle;
-    height: 100%;
-    line-height: 45px;
+#matcha_logo {
+    /*border: 2px solid blueviolet;*/
+    max-width: 90%;
+    max-height: 90%;
+    margin: .1em;
 }
 
-
-.logo {
-    width: 15%;
+.nav_bar {
+    /*border: 2px solid black;*/
+    width: 70vw;
 }
 
-.navbar {
-    width: 70%;
+.list_header {
+    list-style: none;
+    display: flex;
+    /*border: 2px solid red;*/
+    padding-inline-start: 0px;
     text-align: center;
-    color:#025157;
-    font-weight: 500;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
 }
 
-.actions {
-    width: 15%;
-    text-align: right;
-    font-size: 14px;
-    font-weight: 600;
+.list_header :hover {
+    color: #fff;
 }
 
-#capterra_logo {
-    max-width: 20%;
-    max-height: 20%;
-    background-color: #fff;
-    border-radius: 10px;
+.options {
+    /*border: 2px solid blueviolet;*/
+    width: 15vw;
+}
 
+.enter_part {
+    /*border: 2px solid red;*/
+    display: flex;
+    width: 15vw;
+    list-style: none;
+    padding-inline-start: 0px;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#sign_in {
+    /*border: 2px solid blueviolet;*/
+    color: #fff;
+    background-color: #025157;
+    border-radius: .4em;
+    margin:0.4em;
+    border: none;
+    padding: .5em;
+
+}
+
+#sign_in :hover {
+    background: #65adb3;
+}
+
+#button_free {
+    /*border: 2px solid blueviolet;*/
+    color: #fff;
+    background-color: #025157;
+    border-radius: .4em;
+    margin: 0.4em;
+    border:none;
+    padding: .5em;
+}
+
+#button_free :hover {
+    background: #65adb3;
 }
 
 .banner {
     color: rgb(88, 86, 86);
     font-family: verdana;
-    font-size: 20px;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -59,14 +107,14 @@ li {
     max-width: 40%;
     max-height: 40%;
     background-color: #fff;
-    border-radius: 10px;
+    border-radius: 1em;
 
 }
 
 .form {
     text-align: center;
     background-color: #0251578a;
-    border-radius: 5px;
+    border-radius: .4em;
     padding: 1%;
 }
 
@@ -74,12 +122,25 @@ li {
     color: #fff;
     background-color: #025157;
     border: none;
-    border-radius: 5px;
+    border-radius: .4em;
     padding: 1%;
     margin: 1%;
 }
 
+#button_form:hover {
+    background: #65adb3;
+}
+
 #email_form {
     border: none;
-    border-radius: 5px;
+    border-radius: .5em;
+}
+
+
+#capterra_logo {
+    max-width: 20%;
+    max-height: 20%;
+    background-color: #fff;
+    border-radius: .7em;
+
 }
