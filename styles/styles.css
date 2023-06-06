@@ -2,7 +2,6 @@ body {
     background-color: #9fd3c7; 
     margin: 0;
 	padding: 0;
-
     padding-top: 15vh;
 }
 
@@ -15,7 +14,8 @@ body {
     width: 100%;
     left: 0;
     top: 0;
-    position: fixed; 
+    position: fixed;
+    
 }
 
 .logo_header {
