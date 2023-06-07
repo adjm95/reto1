@@ -7,11 +7,11 @@ body {
 
 .header {
     display: flex;
-    background-color: #0251578a;
+    max-width: 100%;
+    background-color: #0e737a;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /*border: 2px solid black;*/
     height: 15vh;
-    width: 100%;
     left: 0;
     top: 0;
     position: fixed;
@@ -34,6 +34,8 @@ body {
 .nav_bar {
     /*border: 2px solid black;*/
     width: 70vw;
+    flex-wrap: wrap;
+
 }
 
 .list_header {
@@ -44,7 +46,6 @@ body {
     text-align: center;
     padding-top: 1em;
     padding-bottom: 1em;
-
 }
 
 .list_header :hover {
@@ -78,7 +79,7 @@ body {
 
 }
 
-#sign_in :hover {
+#sign_in:hover {
     background: #65adb3;
 }
 
@@ -92,7 +93,7 @@ body {
     padding: .5em;
 }
 
-#button_free :hover {
+#button_free:hover {
     background: #65adb3;
 }
 
@@ -134,6 +135,7 @@ body {
 #email_form {
     border: none;
     border-radius: .5em;
+    padding:1%
 }
 
 
@@ -143,4 +145,114 @@ body {
     background-color: #fff;
     border-radius: .7em;
 
+}
+
+.promo {
+    display:flex;
+    max-width: 100%;
+    margin: 2%;
+    margin-left: 10vw;
+    padding: 2%;
+    align-items: center;
+}
+
+.explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explanatory-video img {
+    width: 1.5em;
+    margin-top: 1rem;
+}
+
+#video_1 {
+    width:100%;
+    border-radius: 1em;
+} 
+
+.publish {
+    padding: 3%;
+    max-width: 40%;
+    text-align: center;
+}
+
+.publish h3 {
+    font-family: "alegreya", serif;
+    font-size: 1.5rem;
+    font-weight: .9rem;
+    color: #fff;
+    background-color: #025157;
+    border-radius: 1em;
+    padding: 2%;
+}
+
+.publish p {
+    font-size: 1rem;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 3vh;
+}
+
+.publish > form {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.publish > form p, input, button {
+    color: #025157;
+}
+
+#enter_email {
+    border: none;
+    border-radius: .5em;
+    padding: 3%;
+    margin: 5%;
+    max-width: 90%;
+}
+
+#Start_trial {
+    color: #fff;
+    background-color: #025157;
+    border: none;
+    border-radius: .4em;
+    padding: 3%;
+    margin: 1%;
+}
+
+#Start_trial:hover {
+    background: #65adb3;
+    color: #343434;
+}
+
+@media (max-width:600px) {
+    .list_header{
+        flex-wrap: wrap;
+        padding: 1em;
+    }
+
+    .options {
+        margin: .4em;
+    }
+
+    .promo {
+        display:block;
+        padding: 3%;
+        align-items: center;
+    }
+
+    #video_1 {
+        width:90%;
+        border-radius: 1em;
+    } 
+
+    #enter_email {
+        max-width: 50%;
+    }
+
+    .publish {
+        margin-left: 15vw;
+    }
 }
