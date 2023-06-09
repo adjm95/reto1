@@ -227,6 +227,94 @@ body {
     color: #343434;
 }
 
+.logro {
+    background-color: #a1d683;
+    display:flex;
+    max-width: 100%;
+    padding: 2%;
+    align-items: center;
+}
+
+.patrocinador {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    display: table-column;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 60%;
+    padding: 2vw;
+}
+
+.patrocinador p {
+    font-size: 1rem;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 1vh;
+    padding: 2vw;
+}
+
+#who_uses {
+    color: #fff;
+    background-color: #025157;
+    border: none;
+    border-radius: .4em;
+    padding: 3%;
+    margin: 2vh;
+}
+
+#who_uses:hover {
+    background: #65adb3;
+    color: #343434;
+}
+
+.tarjeta {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+#empresario {
+ max-width: 100%;
+}
+
+#logo_empresa {
+    max-width: 100px;
+    background-color: green;
+    border-radius: 50px;
+    position: absolute;
+}
+
+.titulo_logro {
+    
+}
+
+.Evërly {
+    margin-top: 1vh;
+    padding: 10%;
+    text-align: left;
+    color: #025157
+}
+
+#case {
+    color: #fff;
+    background-color: #025157;
+    border: none;
+    border-radius: .4em;
+    padding: 4%;
+    margin: 1%;
+}
+
+#case:hover {
+    background: #65adb3;
+    color: #343434;
+}
+
 @media (max-width:600px) {
     .list_header{
         flex-wrap: wrap;
