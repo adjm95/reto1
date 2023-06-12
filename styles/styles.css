@@ -386,6 +386,114 @@ body {
     color: #343434;
 }
 
+.Matcha_work {
+    background-color: #fffbf7;
+    display:grid;
+    height: 100vh;
+    padding: 5% 0.5%;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.Matcha_description {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.Matcha_description a {
+    font-size: 1rem;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.Matcha_description a:hover {
+    color: #3d6e2b;
+}
+
+#explore_button {
+    color: #fff;
+    background-color: #025157;
+    border: none;
+    border-radius: .4em;
+    padding: 2%;
+    margin: 1%;
+}
+
+#explore_button:hover {
+    background: #65adb3;
+    color: #343434;
+}
+
+.Feature_work {
+    display:grid;
+    padding: 2% 0;
+    margin: 0;
+    height: 70vh;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Feature_work .work-card {
+    margin-bottom: 3vh;
+    margin-left: 2vw;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 7px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    align-items: center;
+}
+
+.Feature_work .work-card .work-content {
+    padding: .5vh 1vw 1vw 1vh;
+}
+
+.Feature_work .work-card .work-content >* {
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
+
+.Feature_work .work-card .work-content img {
+    width: 40%;
+}
+
+.Feature_work .work-card .work-content h3 {
+    font-size: 1.25rem;
+    color: #343434;
+    font-weight: 400;
+}
+
+.Feature_work .work-card .work-content p {
+    font-size: .8rem;
+    color: #7e7e7e;
+    font-weight: 400;
+}
+
+.Feature_work .work-card .work-content a {
+    font-size: 1rem;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.Feature_work .work-card .work-content a:hover {
+    color: #3d6e2b;
+}
+
+.Feature_work .work-card .work-image {
+    flex:1;
+    width: 90%;
+    position: relative;
+    right: 3vw;
+    height: 90%;
+}
+
+.Feature_work .work-card .work-image figure, .Feature_work .work-card .work-image img {
+    margin-top: 0;
+    height: 100%;
+    max-width: 100%;
+}
+
+
 @media (max-width:600px) {
     .list_header{
         flex-wrap: wrap;
@@ -418,4 +526,22 @@ body {
     #patrocinadores {
         max-width: 50%;
     }
+
+    .features {
+        display:block;
+        padding: 3%;
+        align-items: center;
+        height:min-content;
+    }
+
+    .feature-card .feature-image img {
+        width: 100%;
+    }
+
+    .Feature_work {
+        display:block;
+        padding: 3%;
+        align-items: center;
+    }
+
 }
